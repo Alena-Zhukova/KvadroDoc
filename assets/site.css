@@ -71,6 +71,15 @@ a.card:hover{border-color:var(--ac);transform:translateY(-3px);background:var(--
 .nav a{white-space:nowrap}.btn-ic{padding:9px 10px}
 @media(max-width:1180px) and (min-width:961px){.hdr-cta .btn{display:none}.nav{gap:14px;font-size:14.5px}}
 .hero-go{display:none}
+.also{margin:-4px 0 14px;font-size:18px;color:var(--mut)}.also a{color:var(--tx);border-bottom:1px solid rgba(255,106,26,.6)}.also a:hover{color:var(--ac)}
+.trust{margin:4px 0 0;color:var(--mut);font-size:14px}
+.season a{color:var(--tx);border-bottom:1px solid rgba(255,106,26,.7);font-weight:600}.season a:hover{color:var(--ac)}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;padding-top:22px;padding-bottom:4px}.tabs a{padding:9px 16px;border:1px solid var(--line);border-radius:999px;font-size:15px;color:var(--mut);background:var(--bg2)}
+.tabs a:hover{color:var(--tx);border-color:#3a424e}.tabs a[aria-current]{color:#17110c;background:var(--ac);border-color:var(--ac);font-weight:600}.tabs a.t-new:not([aria-current]){color:var(--tx);border-color:rgba(255,106,26,.55)}
+.techs{display:grid;grid-template-columns:1fr 1fr;gap:18px}.tech{display:flex;flex-direction:column;padding:26px;border:1px solid var(--line);border-radius:18px;background:var(--bg3);transition:.2s}
+.sec:not(.alt) .tech{background:var(--bg2)}.tech h3{margin:12px 0 14px;font-size:26px}.tech .more{margin-top:auto}.tech:hover{border-color:var(--ac);transform:translateY(-2px)}
+.pg{margin:26px 0 10px;font-size:19px;color:var(--ac)}
+@media(max-width:700px){.techs{grid-template-columns:1fr}.tabs{flex-wrap:nowrap;overflow-x:auto;padding-bottom:8px}.tabs a{white-space:nowrap}}
 .revs{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}.rev{margin:0;padding:24px;border:1px solid var(--line);border-radius:var(--r);background:var(--bg2)}
 .sec.alt .rev{background:var(--bg3)}.rev blockquote{margin:0 0 14px;color:#d5dbe3;font-size:16px}.rev figcaption{color:var(--mut);font-size:14px}.rev figcaption b{color:var(--tx)}
 .two:has(> div:empty){grid-template-columns:1fr}.two > div:empty{display:none}
